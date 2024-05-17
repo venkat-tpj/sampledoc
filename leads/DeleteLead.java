@@ -4,12 +4,13 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class DeleteLead {
-//	@Test
-//	public void delLead() throws InterruptedException {
+	@Test
+	public void delLead() throws InterruptedException {
 		
-	public static void main(String[] args) throws InterruptedException {
+//	public static void main(String[] args) throws InterruptedException {
 		
 	
 		ChromeDriver driver = new ChromeDriver();

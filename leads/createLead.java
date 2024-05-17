@@ -5,15 +5,15 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class createLead {
 
-	public static void main(String[] args) {
-//		@Test
-//		public void cLead() {
+//	public static void main(String[] args) {
+		@Test
+		public void cLead() {
 		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--incognito");
+//		options.addArguments("--incognito");
 			
 		ChromeDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
