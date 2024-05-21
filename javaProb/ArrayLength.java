@@ -1,8 +1,12 @@
 package javaProb;
 
+import org.testng.annotations.Test;
+
 public class ArrayLength {
 
-	public static void main(String[] args) {
+	@Test
+	public void Arrlength () {
+//	public static void main(String[] args) {
 
 		int[] number= {2,9,8,6,5,4,7};
 		int numb[]= {9,5,8,6,4,1,2,3,5,6};
